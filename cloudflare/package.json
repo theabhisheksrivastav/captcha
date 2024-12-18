@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "name": "cloudflare-captcha",
+  "version": "1.0.0",
+  "description": "a test repo for cloudflare basic captcha implentation",
+  "main": "NA",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix ./frontend\" \"npm start --prefix ./backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theabhisheksrivastav/captcha.git"
+  },
+  "keywords": [
+    "captcha"
+  ],
+  "author": "theabhisheksrivastav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theabhisheksrivastav/captcha/issues"
+  },
+  "homepage": "https://github.com/theabhisheksrivastav/captcha#readme"
+}
